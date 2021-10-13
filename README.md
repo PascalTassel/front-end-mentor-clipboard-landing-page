@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Link
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://pascaltassel.github.io/front-end-mentor-clipboard-landing-page/](https://pascaltassel.github.io/front-end-mentor-clipboard-landing-page/)
 
 ## My process
 
