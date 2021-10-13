@@ -78,10 +78,10 @@
     --dark-grayish-blue: hsl(210, 10%, 33%);
     --grayish-blue: hsl(201, 11%, 66%);
     --light-blue: hsl(233, 100%, 69%);
-    --light-blue-hover: hsl(233, 100%, 65%);
+    --light-blue-hover: hsl(233, 100%, 74%);
     --light-gray: hsl(220, 1%, 97%);
     --strong-cyan: hsl(171, 66%, 44%);
-    --strong-cyan-hover: hsl(171, 66%, 40%);
+    --strong-cyan-hover: hsl(171, 66%, 49%);
 }
 
 /* RESET */
@@ -240,13 +240,13 @@ a {
     margin-left: 2rem;
 }
 
-.footer__networks img {
-    transition: transform .2s ease-in-out;
+.footer__networks path {
+    transition: fill .2s ease-in-out;
 }
 
-.footer__networks a:focus img,
-.footer__networks a:hover img {
-    transform: scale(1.1);
+.footer__networks a:focus path,
+.footer__networks a:hover path {
+    fill: var(--strong-cyan);
 }
 
 .footer__mentions {
