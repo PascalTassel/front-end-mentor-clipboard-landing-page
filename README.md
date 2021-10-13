@@ -36,6 +36,7 @@ Users should be able to:
 ### Built with
 
 - Semantic HTML5 markup
+- CSS variables
 - CSS custom properties
 - Flexbox
 - CSS Grid
