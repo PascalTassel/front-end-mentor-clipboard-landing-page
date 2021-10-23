@@ -37,12 +37,13 @@ Users should be able to:
 
 - Semantic HTML5 markup
 - CSS custom properties
+- CSS Flexbox
 - CSS Grid
 - SCSS
 - Webpack
 - Mobile-first workflow
 
-:information_source: the css file is not minified in order to be readable
+:information_source: the css file is not minified in order to be readable.
 
 ## Author
 
