@@ -4,16 +4,15 @@
 // SCSS vars
 @import 'vars';
 
-// Component
-@import 'badge';
-
-// Pricing
+// Page
 @import 'root';
 @import 'fonts';
+@import 'scrollbar';
 @import 'body';
+@import 'headings';
+@import 'content';
+@import 'buttons';
 @import 'header';
-@import 'pricing';
-@import 'pricing-range';
-@import 'pricing-switch';
-@import 'pricing-footer';
-@import 'attribution';
+@import 'main';
+@import 'sections';
+@import 'footer';

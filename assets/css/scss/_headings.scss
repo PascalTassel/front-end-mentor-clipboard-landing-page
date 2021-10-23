@@ -1,0 +1,28 @@
+h1, h2 {
+    margin-bottom: .5em;
+    line-height: 1.2;
+    font-weight: 600;
+    color: var(--dark-grayish-blue);
+}
+h1 {
+    font-size: 1.8rem;
+
+    @media screen and (min-width: #{map-get($breakpoints, md)}) {
+        font-size: 2.75rem;
+    }
+}
+h2 {
+    font-size: 1.6rem;
+
+    @media screen and (min-width: #{map-get($breakpoints, md)}) {
+        font-size: 2.2rem;
+    }
+}
+
+@media screen and (min-width: #{map-get($breakpoints, md)}) {
+    .lead {
+        font-size: 1.2rem;
+        margin: 0 auto;
+        max-width: 48rem;
+    }
+}

@@ -1,0 +1,12 @@
+.header {
+    margin-top: 125px;
+    padding: 200px var(--main-padding-x) 0;
+    background: url(../images/logo.svg) no-repeat center top;
+    text-align: center;
+
+    @media screen and (min-width: #{map-get($breakpoints, md)}) {
+        .lead {
+            font-size: 1.4rem;
+        }
+    }
+}

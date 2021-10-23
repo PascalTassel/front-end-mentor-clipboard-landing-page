@@ -1,0 +1,26 @@
+.main {
+    padding: 0 var(--main-padding-x);
+    margin: 0 auto;
+    max-width: 1440px;
+}
+.section {
+    padding-top: 10rem;
+    text-align: center;
+}
+.section:last-child {
+    padding-bottom: 10rem;
+}
+.section li {
+    margin-bottom: 3rem;
+}
+.section li strong {
+    display: block;
+    margin-bottom: 1rem;
+    line-height: 1;
+    font-weight: 600;
+    font-size: 1.4rem;
+    color: var(--dark-grayish-blue);
+}
+.section li img{
+    margin: 0 auto 2rem;
+}

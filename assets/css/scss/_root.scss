@@ -1,15 +1,24 @@
 :root {
-    /* Primary */
-    --soft-cyan: #{map-get($colors, soft-cyan)};
-    --cyan: #{map-get($colors, cyan)};
-    --light-grayish-red: #{map-get($colors, light-grayish-red)};
-    --light-red: #{map-get($colors, light-red)};
-    --pale-blue: #{map-get($colors, pale-blue)};
-    /* Neutral */
-    --white: #{map-get($colors, white)};
-    --very-pale-blue: #{map-get($colors, very-pale-blue)};
-    --light-grayish-blue: #{map-get($colors, light-grayish-blue)};
-    --dark-grayish-blue: #{map-get($colors, dark-grayish-blue)};
-    --grayish-blue: #{map-get($colors, grayish-blue)};
-    --dark-desaturated-blue: #{map-get($colors, dark-desaturated-blue)};
+  --main-padding-x: #{$main-padding};
+  --dark-grayish-blue: #{map-get($colors, dark-grayish-blue)};
+  --grayish-blue: #{map-get($colors, grayish-blue)};
+  --light-blue: #{map-get($colors, light-blue)};
+  --light-blue-hover: #{map-get($colors, light-blue-hover)};
+  --light-gray: #{map-get($colors, light-gray)};
+  --strong-cyan: #{map-get($colors, strong-cyan)};
+  --strong-cyan-hover: #{map-get($colors, strong-cyan-hover)};
+  --scrollbar-thumb: #{$scrollbar-thumb};
+  --scrollbar-bg: #{$scrollbar-bg};
+}
+
+@media screen and (min-width: #{map-get($breakpoints, xl)}) {
+  :root {
+      --main-padding-x: #{$main-padding * 2};
   }
+}
+
+@media screen and (min-width: #{map-get($breakpoints, xxl)}) {
+  :root {
+      --main-padding-x: #{$main-padding * 5};
+  }
+}

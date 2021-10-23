@@ -1,0 +1,14 @@
+
+body {
+    background: #fff url(../images/bg-header-mobile.png) no-repeat center top / 100% auto;
+    font-size: 16px;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-weight: 400;
+    line-height: 1.8;
+    color: var(--grayish-blue);
+
+    @media screen and (min-width: #{map-get($breakpoints, sm)}) {
+        font-size: 18px; 
+        background-image: url(../images/bg-header-desktop.png);
+    }
+}
