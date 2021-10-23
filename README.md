@@ -25,7 +25,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](images/screenshot.jpg)
+![](design/screenshot.jpg)
 
 ### Link
 
@@ -36,11 +36,13 @@ Users should be able to:
 ### Built with
 
 - Semantic HTML5 markup
-- CSS variables
 - CSS custom properties
-- Flexbox
 - CSS Grid
+- SCSS
+- Webpack
 - Mobile-first workflow
+
+:information_source: the css file is not minified in order to be readable
 
 ## Author
 
